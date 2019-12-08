@@ -1,0 +1,6 @@
+/subs/*.png
+*.bmp
+DB_t*/
+*.txt
+*.mat
+*.binaryproto
