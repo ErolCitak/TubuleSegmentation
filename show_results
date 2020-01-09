@@ -1,0 +1,14 @@
+import numpy as np
+
+size = 64
+
+svm_hog_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//svm_hog_res_"+str(size)+".npy")
+dt_hog_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//dt_hog_res_"+str(size)+".npy")
+rf_hog_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//rf_hog_res_"+str(size)+".npy")
+lr_hog_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//lr_hog_res_"+str(size)+".npy")
+
+
+svm_hist_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//svm_hist_res_"+str(size)+".npy")
+dt_hist_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//dt_hist_res_"+str(size)+".npy")
+rf_hist_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//rf_hist_res_"+str(size)+".npy")
+lr_hist_res = np.load("C://Users//PC//PycharmProjects//Tubule_Segmentation//Traditional_Result//"+str(size)+"//lr_hist_res_"+str(size)+".npy")
